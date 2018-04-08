@@ -39,8 +39,7 @@ def mean_filt(inp_img1):
                     #pepper pixels to be added
                     image[x,y] = 0
                     pixel_count = pixel_count + 1
-   
-                
+  
                 if pixel_count > ((image.shape[0] * image.shape[1]) * percent_noise / 100) : 
                     #percentage of noise in the image can be calculted by 
                     #the number of noise pixels and total pixels in the image
